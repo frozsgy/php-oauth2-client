@@ -1,6 +1,10 @@
 # Object Oriented oAuth2 Client for PHP
 This repository contains a sample oAuth2 client that was written to learn about oAuth2 protocols. By using the simple base class, you can easily add more providers and use their functionalities.
 
+[![Source Code](http://img.shields.io/badge/source-frozsgy/php--oauth2--client-blue.svg?style=flat-square)](https://github.com/frozsgy/php-oauth2-client)
+[![Latest Version](https://img.shields.io/github/release/frozsgy/php-oauth2-client.svg?style=flat-square)](https://github.com/frozsgy/php-oauth2-client/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/frozsgy/php-oauth2-client/blob/master/LICENSE)
+
 ## Requirements ##
 * [PHP 7 or higher](http://www.php.net/)
 * [mySQL](https://www.mysql.com/) or [MariaDB](https://mariadb.org/)
