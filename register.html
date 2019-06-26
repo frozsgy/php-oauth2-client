@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>user registration</title>
+  <style>
+    input {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      display:inline-block;
+      *display: inline;     /* for IE7*/
+      zoom:1;              /* for IE7*/
+      vertical-align:middle;
+      margin-left:10px
+    }
+    label {
+      display:inline-block;
+      *display: inline;     /* for IE7*/
+      zoom:1;              /* for IE7*/
+      float: left;
+      padding-top: 10px;
+      text-align: right;
+      width: 140px;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="margin-top:100px; text-align:left; margin-left:300px;">
+    <form method="post" action="register.php">
+      <p><label for="uname">Username: </label><input id="uname" name="uname" placeholder="Username"></p>
+      <p><label for="email">E-mail: </label><input type="email" id="email" name="email" placeholder="E-mail"></p>
+      <p><label for="password">Password: </label><input type="password" id="password" name="password" placeholder="Password"></p>
+      <p><label for="submit"></label><input type="submit" value="Submit"></p>
+  </div>
+
+
+
+</body>
+</html>
